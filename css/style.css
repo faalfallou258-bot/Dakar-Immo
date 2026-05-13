@@ -55,7 +55,7 @@
      flex-direction: column;
      justify-content: center;
      gap: 22px;
-     background: url("/images/hero-background.png.png") center/cover no-repeat;
+     background: url("images/hero-background.png.png") center/cover no-repeat;
      background-blend-mode: darken;
      background-color: rgba(17, 17, 17, 0.5);
  }
