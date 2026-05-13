@@ -1,4 +1,4 @@
- * {
+* {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
@@ -64,7 +64,6 @@
      text-align: center;
      color: white;
      width: 50%;
-     justify-content: center
  }
 
  .E h1 {
@@ -217,16 +216,181 @@
      height: 350px;
      border-radius: 13px;
  }
- .inf{
-    color: #F59E0B;
-    font-size: 18px;
- }
 
  .image {
      width: 100%;
      height: 215px;
  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .titre {
+     width: 100%;
+     height: 200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+ }
+
+ .titre h1 {
+     color: #1E3A8A;
+     font-size: 60px;
+ }
+
+ .titre p {
+     font-size: 20px;
+ }
+
+ .PC6 {
+     height: 900px;
+     width: 85%;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .C6 {
+     border: 2px solid;
+     height: 340px;
+     width: 28%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+
+ .al {
+     font-size: 19px;
+ }
+
+ .icn {
+     font-size: 110px;
+     color: #1E3A8A;
+ }
+
+ .Z {
+     color: #1E3A8A;
+ }
+
+
+
+
+
+ .role {
+     height: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .question {
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .contact {
+     width: 90%;
+     margin: 0 auto;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ .tel {
+    width: 60%;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     gap: 13px;
+ }
+
+ .tel i {
+     font-size: 40px;
+     color: #1E3A8A;
+ }
+ 
+
+ form {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+     gap: 24px;
+    
+ }
+ label{
+    font-size: 20px;
+ }
+
+ .Formulaire {
+    border: 2px solid;
+     height: 800px;
+     display: flex;
+      justify-content: center;
+     align-items: center;
+
+ }
+
+ input {
+     border: 2px solid;
+     height: 30px;
+ }
+
+
+
+ 
+
+ 
+
+ .PY {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .Y {
+     height: 210px;
+ }
 
 
 
@@ -281,7 +445,7 @@
          height: 350px;
      }
 
-    
+
 
 
 
@@ -371,7 +535,8 @@
          height: 160px;
 
      }
-         .bien {
+
+     .bien {
          width: 95%;
          height: 2300px;
          display: flex;
